@@ -29,7 +29,7 @@ const Dashboard = () => {
     <div style={{ fontFamily: "'Roboto', sans-serif", backgroundColor: "#72abc7", minHeight: "100vh" }}>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#">MySite</a>
+          <a className="navbar-brand fw-bold">MySite</a>
           <div className="d-flex ms-auto align-items-center">
             {username && (
               <>
